@@ -60,6 +60,10 @@ public class SimpleServo implements ServoEx {
         servo.setPosition(Range.clip(position, minPosition, maxPosition));
     }
 
+    public void setSimplePosition(double positionPWM){
+        servo.setPosition(((positionPWM - 600) / 1800));
+    }
+
     @Override
     public void setRange(double min, double max, AngleUnit angleUnit) {
         this.minAngle = toRadians(min, angleUnit);
