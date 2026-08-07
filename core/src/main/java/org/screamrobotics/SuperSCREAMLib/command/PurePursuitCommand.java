@@ -1,9 +1,9 @@
 package org.screamrobotics.SuperSCREAMLib.command;
 
-import com.arcrobotics.ftclib.drivebase.MecanumDrive;
-import com.arcrobotics.ftclib.geometry.Pose2d;
-import com.arcrobotics.ftclib.purepursuit.Path;
-import com.arcrobotics.ftclib.purepursuit.Waypoint;
+import com.arcrobotics.SuperSCREAMLib.drivebase.MecanumDrive;
+import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
+import com.arcrobotics.SuperSCREAMLib.purepursuit.Path;
+import com.arcrobotics.SuperSCREAMLib.purepursuit.Waypoint;
 
 /**
  * @author Jackson

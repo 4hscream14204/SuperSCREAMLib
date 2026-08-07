@@ -1,7 +1,7 @@
 package com.example.ftclibexamples.VisionSample;
 
-import com.arcrobotics.ftclib.vision.UGContourRingDetector;
-import com.arcrobotics.ftclib.vision.UGContourRingPipeline;
+import com.arcrobotics.SuperSCREAMLib.vision.UGContourRingDetector;
+import com.arcrobotics.SuperSCREAMLib.vision.UGContourRingPipeline;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;

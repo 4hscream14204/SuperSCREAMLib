@@ -7,8 +7,8 @@
 
 package org.screamrobotics.SuperSCREAMLib.controller.wpilibcontroller;
 
-import com.arcrobotics.ftclib.controller.PIDController;
-import com.arcrobotics.ftclib.trajectory.TrapezoidProfile;
+import com.arcrobotics.SuperSCREAMLib.controller.PIDController;
+import com.arcrobotics.SuperSCREAMLib.trajectory.TrapezoidProfile;
 
 /**
  * Implements a PID control loop whose setpoint is constrained by a trapezoid

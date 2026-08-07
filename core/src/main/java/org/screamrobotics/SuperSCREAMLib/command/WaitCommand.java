@@ -7,7 +7,7 @@
 
 package org.screamrobotics.SuperSCREAMLib.command;
 
-import com.arcrobotics.ftclib.util.Timing.Timer;
+import com.arcrobotics.SuperSCREAMLib.util.Timing.Timer;
 
 import java.util.concurrent.TimeUnit;
 

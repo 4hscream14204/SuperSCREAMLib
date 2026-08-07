@@ -1,7 +1,7 @@
 package org.screamrobotics.SuperSCREAMLib.drivebase;
 
-import com.arcrobotics.ftclib.geometry.Vector2d;
-import com.arcrobotics.ftclib.hardware.motors.Motor;
+import com.arcrobotics.SuperSCREAMLib.geometry.Vector2d;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.Motor;
 
 /**
  * Holonomic drivebase

@@ -1,9 +1,9 @@
 package com.example.ftclibexamples;
 
-import com.arcrobotics.ftclib.gamepad.GamepadEx;
-import com.arcrobotics.ftclib.gamepad.GamepadKeys;
-import com.arcrobotics.ftclib.hardware.motors.Motor;
-import com.arcrobotics.ftclib.hardware.motors.MotorGroup;
+import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadEx;
+import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadKeys;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.Motor;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorGroup;
 import com.qualcomm.hardware.lynx.LynxModule;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;

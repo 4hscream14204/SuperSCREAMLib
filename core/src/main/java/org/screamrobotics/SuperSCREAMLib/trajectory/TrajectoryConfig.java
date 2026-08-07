@@ -7,13 +7,13 @@
 
 package org.screamrobotics.SuperSCREAMLib.trajectory;
 
-import com.arcrobotics.ftclib.kinematics.wpilibkinematics.DifferentialDriveKinematics;
-import com.arcrobotics.ftclib.kinematics.wpilibkinematics.MecanumDriveKinematics;
-import com.arcrobotics.ftclib.kinematics.wpilibkinematics.SwerveDriveKinematics;
-import com.arcrobotics.ftclib.trajectory.constraint.DifferentialDriveKinematicsConstraint;
-import com.arcrobotics.ftclib.trajectory.constraint.MecanumDriveKinematicsConstraint;
-import com.arcrobotics.ftclib.trajectory.constraint.SwerveDriveKinematicsConstraint;
-import com.arcrobotics.ftclib.trajectory.constraint.TrajectoryConstraint;
+import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.DifferentialDriveKinematics;
+import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.MecanumDriveKinematics;
+import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.SwerveDriveKinematics;
+import com.arcrobotics.SuperSCREAMLib.trajectory.constraint.DifferentialDriveKinematicsConstraint;
+import com.arcrobotics.SuperSCREAMLib.trajectory.constraint.MecanumDriveKinematicsConstraint;
+import com.arcrobotics.SuperSCREAMLib.trajectory.constraint.SwerveDriveKinematicsConstraint;
+import com.arcrobotics.SuperSCREAMLib.trajectory.constraint.TrajectoryConstraint;
 
 import java.util.ArrayList;
 import java.util.List;

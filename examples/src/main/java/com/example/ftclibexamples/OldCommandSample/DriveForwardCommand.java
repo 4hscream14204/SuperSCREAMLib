@@ -1,6 +1,6 @@
 package com.example.ftclibexamples.OldCommandSample;
 
-import com.arcrobotics.ftclib.command.old.Command;
+import com.arcrobotics.SuperSCREAMLib.command.old.Command;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 public class DriveForwardCommand implements Command {

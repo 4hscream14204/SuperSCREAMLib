@@ -1,15 +1,15 @@
 package com.example.ftclibexamples;
 
-import com.arcrobotics.ftclib.command.CommandOpMode;
-import com.arcrobotics.ftclib.command.OdometrySubsystem;
-import com.arcrobotics.ftclib.command.PurePursuitCommand;
-import com.arcrobotics.ftclib.drivebase.MecanumDrive;
-import com.arcrobotics.ftclib.hardware.motors.Motor;
-import com.arcrobotics.ftclib.hardware.motors.MotorEx;
-import com.arcrobotics.ftclib.kinematics.HolonomicOdometry;
-import com.arcrobotics.ftclib.purepursuit.waypoints.EndWaypoint;
-import com.arcrobotics.ftclib.purepursuit.waypoints.GeneralWaypoint;
-import com.arcrobotics.ftclib.purepursuit.waypoints.StartWaypoint;
+import com.arcrobotics.SuperSCREAMLib.command.CommandOpMode;
+import com.arcrobotics.SuperSCREAMLib.command.OdometrySubsystem;
+import com.arcrobotics.SuperSCREAMLib.command.PurePursuitCommand;
+import com.arcrobotics.SuperSCREAMLib.drivebase.MecanumDrive;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.Motor;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
+import com.arcrobotics.SuperSCREAMLib.kinematics.HolonomicOdometry;
+import com.arcrobotics.SuperSCREAMLib.purepursuit.waypoints.EndWaypoint;
+import com.arcrobotics.SuperSCREAMLib.purepursuit.waypoints.GeneralWaypoint;
+import com.arcrobotics.SuperSCREAMLib.purepursuit.waypoints.StartWaypoint;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 

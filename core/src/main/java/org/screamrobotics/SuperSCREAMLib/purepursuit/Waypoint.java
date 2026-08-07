@@ -1,8 +1,8 @@
 package org.screamrobotics.SuperSCREAMLib.purepursuit;
 
-import com.arcrobotics.ftclib.geometry.Pose2d;
-import com.arcrobotics.ftclib.purepursuit.types.WaypointType;
-import com.arcrobotics.ftclib.purepursuit.waypoints.GeneralWaypoint;
+import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
+import com.arcrobotics.SuperSCREAMLib.purepursuit.types.WaypointType;
+import com.arcrobotics.SuperSCREAMLib.purepursuit.waypoints.GeneralWaypoint;
 
 /**
  * A pure pursuit Waypoint is a point in which the robot traverses. Using Waypoints

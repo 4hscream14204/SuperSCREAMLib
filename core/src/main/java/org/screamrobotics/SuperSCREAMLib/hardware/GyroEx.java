@@ -1,7 +1,7 @@
 package org.screamrobotics.SuperSCREAMLib.hardware;
 
 
-import com.arcrobotics.ftclib.geometry.Rotation2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Rotation2d;
 
 public abstract class GyroEx implements HardwareDevice {
 

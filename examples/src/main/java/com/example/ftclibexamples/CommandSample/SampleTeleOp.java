@@ -1,11 +1,11 @@
 package com.example.ftclibexamples.CommandSample;
 
-import com.arcrobotics.ftclib.command.CommandOpMode;
-import com.arcrobotics.ftclib.command.button.Button;
-import com.arcrobotics.ftclib.command.button.GamepadButton;
-import com.arcrobotics.ftclib.gamepad.GamepadEx;
-import com.arcrobotics.ftclib.gamepad.GamepadKeys;
-import com.arcrobotics.ftclib.hardware.motors.MotorEx;
+import com.arcrobotics.SuperSCREAMLib.command.CommandOpMode;
+import com.arcrobotics.SuperSCREAMLib.command.button.Button;
+import com.arcrobotics.SuperSCREAMLib.command.button.GamepadButton;
+import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadEx;
+import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadKeys;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 

@@ -9,7 +9,7 @@ package org.screamrobotics.SuperSCREAMLib.command;
 
 import java.util.function.BooleanSupplier;
 
-import static com.arcrobotics.ftclib.command.CommandGroupBase.requireUngrouped;
+import static com.arcrobotics.SuperSCREAMLib.command.CommandGroupBase.requireUngrouped;
 
 
 /**

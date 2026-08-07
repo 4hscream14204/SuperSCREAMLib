@@ -7,10 +7,10 @@
 
 package org.screamrobotics.SuperSCREAMLib.trajectory.constraint;
 
-import com.arcrobotics.ftclib.geometry.Pose2d;
-import com.arcrobotics.ftclib.kinematics.wpilibkinematics.ChassisSpeeds;
-import com.arcrobotics.ftclib.kinematics.wpilibkinematics.MecanumDriveKinematics;
-import com.arcrobotics.ftclib.kinematics.wpilibkinematics.MecanumDriveWheelSpeeds;
+import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
+import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.ChassisSpeeds;
+import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.MecanumDriveKinematics;
+import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.MecanumDriveWheelSpeeds;
 
 
 /**

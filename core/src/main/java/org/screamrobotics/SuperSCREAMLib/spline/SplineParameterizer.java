@@ -31,7 +31,7 @@
 
 package org.screamrobotics.SuperSCREAMLib.spline;
 
-import com.arcrobotics.ftclib.geometry.Twist2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Twist2d;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

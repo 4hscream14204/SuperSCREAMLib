@@ -2,10 +2,10 @@ package org.screamrobotics.SuperSCREAMLib.hardware.motors;
 
 import androidx.annotation.NonNull;
 
-import com.arcrobotics.ftclib.controller.PController;
-import com.arcrobotics.ftclib.controller.PIDController;
-import com.arcrobotics.ftclib.controller.wpilibcontroller.SimpleMotorFeedforward;
-import com.arcrobotics.ftclib.hardware.HardwareDevice;
+import com.arcrobotics.SuperSCREAMLib.controller.PController;
+import com.arcrobotics.SuperSCREAMLib.controller.PIDController;
+import com.arcrobotics.SuperSCREAMLib.controller.wpilibcontroller.SimpleMotorFeedforward;
+import com.arcrobotics.SuperSCREAMLib.hardware.HardwareDevice;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
 import com.qualcomm.robotcore.hardware.HardwareMap;

@@ -1,6 +1,6 @@
 package com.example.ftclibexamples.CommandSample;
 
-import com.arcrobotics.ftclib.command.SubsystemBase;
+import com.arcrobotics.SuperSCREAMLib.command.SubsystemBase;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 

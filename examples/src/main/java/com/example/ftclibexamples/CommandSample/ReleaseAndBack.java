@@ -1,6 +1,6 @@
 package com.example.ftclibexamples.CommandSample;
 
-import com.arcrobotics.ftclib.command.SequentialCommandGroup;
+import com.arcrobotics.SuperSCREAMLib.command.SequentialCommandGroup;
 
 /**
  * A complex auto command that drives forward, releases a stone, and then drives backward.

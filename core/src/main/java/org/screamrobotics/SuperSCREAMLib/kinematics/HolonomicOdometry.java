@@ -1,8 +1,8 @@
 package org.screamrobotics.SuperSCREAMLib.kinematics;
 
-import com.arcrobotics.ftclib.geometry.Pose2d;
-import com.arcrobotics.ftclib.geometry.Rotation2d;
-import com.arcrobotics.ftclib.geometry.Twist2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Rotation2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Twist2d;
 
 import java.util.function.DoubleSupplier;
 

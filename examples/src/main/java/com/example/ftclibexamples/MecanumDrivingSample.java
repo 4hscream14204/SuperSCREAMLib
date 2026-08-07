@@ -1,9 +1,9 @@
 package com.example.ftclibexamples;
 
-import com.arcrobotics.ftclib.drivebase.MecanumDrive;
-import com.arcrobotics.ftclib.gamepad.GamepadEx;
-import com.arcrobotics.ftclib.hardware.RevIMU;
-import com.arcrobotics.ftclib.hardware.motors.Motor;
+import com.arcrobotics.SuperSCREAMLib.drivebase.MecanumDrive;
+import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadEx;
+import com.arcrobotics.SuperSCREAMLib.hardware.RevIMU;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.Motor;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 

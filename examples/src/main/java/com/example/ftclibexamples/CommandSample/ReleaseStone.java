@@ -1,11 +1,11 @@
 package com.example.ftclibexamples.CommandSample;
 
-import com.arcrobotics.ftclib.command.CommandBase;
+import com.arcrobotics.SuperSCREAMLib.command.CommandBase;
 
 /**
  * A simple command that releases a stone with the {@link GripperSubsystem}.  Written explicitly for
  * pedagogical purposes. Actual code should inline a command this simple with {@link
- * com.arcrobotics.ftclib.command.InstantCommand}.
+ * com.arcrobotics.SuperSCREAMLib.command.InstantCommand}.
  */
 public class ReleaseStone extends CommandBase {
 

@@ -1,6 +1,6 @@
 package com.example.ftclibexamples.VisionSample;
 
-import com.arcrobotics.ftclib.vision.UGRectDetector;
+import com.arcrobotics.SuperSCREAMLib.vision.UGRectDetector;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 public class UGRectRingVisionSample extends LinearOpMode {

@@ -8,11 +8,11 @@
 package org.screamrobotics.SuperSCREAMLib.controller.wpilibcontroller;
 
 
-import com.arcrobotics.ftclib.geometry.Pose2d;
-import com.arcrobotics.ftclib.geometry.Rotation2d;
-import com.arcrobotics.ftclib.geometry.Translation2d;
-import com.arcrobotics.ftclib.kinematics.wpilibkinematics.ChassisSpeeds;
-import com.arcrobotics.ftclib.trajectory.Trajectory;
+import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Rotation2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Translation2d;
+import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.ChassisSpeeds;
+import com.arcrobotics.SuperSCREAMLib.trajectory.Trajectory;
 
 /**
  * Ramsete is a nonlinear time-varying feedback controller for unicycle models

@@ -8,7 +8,7 @@
 package org.screamrobotics.SuperSCREAMLib.trajectory.constraint;
 
 
-import com.arcrobotics.ftclib.geometry.Pose2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
 
 /**
  * A constraint on the maximum absolute centripetal acceleration allowed when

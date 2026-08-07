@@ -1,7 +1,7 @@
 package com.example.ftclibexamples.SharedOdometry;
 
-import com.arcrobotics.ftclib.hardware.motors.MotorEx;
-import com.arcrobotics.ftclib.kinematics.HolonomicOdometry;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
+import com.arcrobotics.SuperSCREAMLib.kinematics.HolonomicOdometry;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 public class TeleStaticRobotPose extends LinearOpMode {

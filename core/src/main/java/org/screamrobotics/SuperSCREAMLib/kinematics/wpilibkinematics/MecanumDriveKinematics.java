@@ -7,7 +7,7 @@
 
 package org.screamrobotics.SuperSCREAMLib.kinematics.wpilibkinematics;
 
-import com.arcrobotics.ftclib.geometry.Translation2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Translation2d;
 
 import org.ejml.simple.SimpleMatrix;
 

@@ -1,7 +1,7 @@
 package org.screamrobotics.SuperSCREAMLib.drivebase;
 
-import com.arcrobotics.ftclib.hardware.motors.Motor;
-import com.arcrobotics.ftclib.hardware.motors.MotorGroup;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.Motor;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorGroup;
 
 /**
  * A differential drive is one that has two motors or motor groups

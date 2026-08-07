@@ -1,9 +1,9 @@
 package com.example.ftclibexamples.CommandSample;
 
-import com.arcrobotics.ftclib.command.SubsystemBase;
-import com.arcrobotics.ftclib.drivebase.DifferentialDrive;
-import com.arcrobotics.ftclib.hardware.motors.Motor.Encoder;
-import com.arcrobotics.ftclib.hardware.motors.MotorEx;
+import com.arcrobotics.SuperSCREAMLib.command.SubsystemBase;
+import com.arcrobotics.SuperSCREAMLib.drivebase.DifferentialDrive;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.Motor.Encoder;
+import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
 public class DriveSubsystem extends SubsystemBase {

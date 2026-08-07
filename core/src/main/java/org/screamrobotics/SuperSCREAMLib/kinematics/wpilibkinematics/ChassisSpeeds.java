@@ -8,7 +8,7 @@
 package org.screamrobotics.SuperSCREAMLib.kinematics.wpilibkinematics;
 
 
-import com.arcrobotics.ftclib.geometry.Rotation2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Rotation2d;
 
 /**
  * Represents the speed of a robot chassis. Although this struct contains

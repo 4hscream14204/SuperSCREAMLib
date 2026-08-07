@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.purepursuit.types;
 
-import com.arcrobotics.ftclib.purepursuit.Path;
+import com.arcrobotics.SuperSCREAMLib.purepursuit.Path;
 
 /**
  * An enum with values for each Path type.

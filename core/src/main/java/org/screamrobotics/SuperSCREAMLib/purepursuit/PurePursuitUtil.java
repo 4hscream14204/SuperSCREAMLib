@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.purepursuit;
 
-import com.arcrobotics.ftclib.geometry.Translation2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Translation2d;
 
 import java.util.ArrayList;
 import java.util.Arrays;

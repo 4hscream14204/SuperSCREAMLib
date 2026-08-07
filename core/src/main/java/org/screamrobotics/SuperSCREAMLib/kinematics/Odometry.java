@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.kinematics;
 
-import com.arcrobotics.ftclib.geometry.Pose2d;
+import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
 
 public abstract class Odometry {
 
