@@ -7,12 +7,12 @@ public class RGBLight {
     Servo lightServo;
 
     public enum RGBLightColors{
-        RED(0),
-        ORANGE(0.1),
-        YELLOW(0.2),
-        GREEN(0.3),
-        BLUE(0.4),
-        PURPLE(0.5);
+        RED(0.2777),
+        ORANGE(0.3333),
+        YELLOW(0.3888),
+        GREEN(0.5),
+        BLUE(0.6111),
+        PURPLE(0.7222);
         public final double value;
         RGBLightColors(double pos){
             value = pos;
