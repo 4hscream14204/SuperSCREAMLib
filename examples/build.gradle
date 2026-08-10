@@ -2,8 +2,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 29
+    compileSdk 34
     buildToolsVersion "29.0.2"
+    namespace = "org.screamrobotics.SuperSCREAMLib"
 
     defaultConfig {
         minSdkVersion 24
@@ -38,13 +39,12 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation project(path: ':core')
 
-    compileOnly 'org.firstinspires.ftc:Inspection:8.1.1'
-    compileOnly 'org.firstinspires.ftc:Blocks:8.1.1'
-    compileOnly 'org.firstinspires.ftc:RobotCore:8.1.1'
-    compileOnly 'org.firstinspires.ftc:RobotServer:8.1.1'
-    compileOnly 'org.firstinspires.ftc:Hardware:8.1.1'
-    compileOnly 'org.firstinspires.ftc:FtcCommon:8.1.1'
-    implementation project(path: ':core:vision')
+    compileOnly 'org.firstinspires.ftc:Inspection:11.2.1'
+    compileOnly 'org.firstinspires.ftc:Blocks:11.2.1'
+    compileOnly 'org.firstinspires.ftc:RobotCore:11.2.1'
+    compileOnly 'org.firstinspires.ftc:RobotServer:11.2.1'
+    compileOnly 'org.firstinspires.ftc:Hardware:11.2.1'
+    compileOnly 'org.firstinspires.ftc:FtcCommon:11.2.1'
 //    implementation "androidx.core:core-ktx:1.6.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 

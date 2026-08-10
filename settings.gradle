@@ -1,3 +1,2 @@
-include ':core:vision'
 include ':examples'
 include ':core'
