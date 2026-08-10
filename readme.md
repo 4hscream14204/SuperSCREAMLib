@@ -2,7 +2,7 @@
 
 *Logo produced by Jack from #14204 Super SCREAM Bros*
 
-Origin: https://github.com/FTCLib/FTCLib
+Origin: <https://github.com/4hscream14204/SuperSCREAMLib>
 
 Forked from FTCLib and updated by Connor Lithgow and the Super SCREAM Bros programming subteam
 
@@ -14,11 +14,15 @@ Super SCREAM Lib documentation - <https://github.com/4hscream14204/SuperSCREAMLi
 
 ## Installation
 
+Without further ado, let's a go with the installation!
 
+1. Add `maven { url = "https://jitpack.io" }` to your build.gradle and your build.common.gradle under the repositories section.
+2. Go to build.dependencies.gradle and add `implementation "com.github.4hscream14204:SuperSCREAMLib:main-<LATEST-VERSION>"` into your dependencies.
+3. Do a Gradle Sync and you're done! Enjoy Super SCREAM Lib!
 
 ## Welcome to Super SCREAM Lib!
 
-Thanks for using Super SCREAM Lib!
+Thanks for using Super SCREAM Lib! We appreciate your support of our library!
 
 ## Why Use Super SCREAM Lib?
 
