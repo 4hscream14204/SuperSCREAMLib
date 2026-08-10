@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.kotlin.extensions.util
 
-import com.arcrobotics.ftclib.util.LUT
+import org.screamrobotics.SuperSCREAMLib.util.LUT
 
 /**
  * @author Jaran Chao

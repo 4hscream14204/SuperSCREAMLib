@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.hardware;
 
-import com.arcrobotics.SuperSCREAMLib.geometry.Rotation2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Rotation2d;
 import com.qualcomm.hardware.bosch.BNO055IMU;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 

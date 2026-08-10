@@ -23,14 +23,14 @@ public class Robot {
     }
 
     /**
-     * Schedules {@link com.arcrobotics.SuperSCREAMLib.command.Command} objects to the scheduler
+     * Schedules {@link org.screamrobotics.SuperSCREAMLib.command.Command} objects to the scheduler
      */
     public void schedule(Command... commands) {
         CommandScheduler.getInstance().schedule(commands);
     }
 
     /**
-     * Registers {@link com.arcrobotics.SuperSCREAMLib.command.Subsystem} objects to the scheduler
+     * Registers {@link org.screamrobotics.SuperSCREAMLib.command.Subsystem} objects to the scheduler
      */
     public void register(Subsystem... subsystems) {
         CommandScheduler.getInstance().registerSubsystem(subsystems);

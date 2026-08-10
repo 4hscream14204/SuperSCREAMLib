@@ -1,8 +1,8 @@
 package org.screamrobotics.SuperSCREAMLib.kotlin.extensions.geometry
 
-import com.arcrobotics.ftclib.geometry.Pose2d
-import com.arcrobotics.ftclib.geometry.Transform2d
-import com.arcrobotics.ftclib.geometry.Twist2d
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d
+import org.screamrobotics.SuperSCREAMLib.geometry.Transform2d
+import org.screamrobotics.SuperSCREAMLib.geometry.Twist2d
 
 /**
  * @author Jaran Chao

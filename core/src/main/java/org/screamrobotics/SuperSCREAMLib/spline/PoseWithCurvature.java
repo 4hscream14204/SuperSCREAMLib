@@ -7,7 +7,7 @@
 
 package org.screamrobotics.SuperSCREAMLib.spline;
 
-import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d;
 
 
 /**

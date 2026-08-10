@@ -7,9 +7,9 @@
 
 package org.screamrobotics.SuperSCREAMLib.command.button;
 
-import com.arcrobotics.SuperSCREAMLib.command.Command;
-import com.arcrobotics.SuperSCREAMLib.command.CommandScheduler;
-import com.arcrobotics.SuperSCREAMLib.command.InstantCommand;
+import org.screamrobotics.SuperSCREAMLib.command.Command;
+import org.screamrobotics.SuperSCREAMLib.command.CommandScheduler;
+import org.screamrobotics.SuperSCREAMLib.command.InstantCommand;
 
 import java.util.function.BooleanSupplier;
 

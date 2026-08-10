@@ -1,9 +1,9 @@
 package org.screamrobotics.SuperSCREAMLib.purepursuit.waypoints;
 
-import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
-import com.arcrobotics.SuperSCREAMLib.geometry.Rotation2d;
-import com.arcrobotics.SuperSCREAMLib.geometry.Translation2d;
-import com.arcrobotics.SuperSCREAMLib.purepursuit.types.WaypointType;
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Rotation2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Translation2d;
+import org.screamrobotics.SuperSCREAMLib.purepursuit.types.WaypointType;
 
 /**
  * A point turn waypoint is a special type of waypoint where instead of "curving" around it, the

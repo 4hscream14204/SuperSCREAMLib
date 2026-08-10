@@ -1,8 +1,8 @@
 package com.example.ftclibexamples.OldCommandSample;
 
-import com.arcrobotics.SuperSCREAMLib.controller.PIDController;
-import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadEx;
-import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
+import org.screamrobotics.SuperSCREAMLib.controller.PIDController;
+import org.screamrobotics.SuperSCREAMLib.gamepad.GamepadEx;
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;

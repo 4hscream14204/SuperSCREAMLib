@@ -1,11 +1,11 @@
 package com.example.ftclibexamples.kotlinexamples
 
-import com.arcrobotics.ftclib.drivebase.MecanumDrive
-import com.arcrobotics.ftclib.geometry.Vector2d
-import com.arcrobotics.ftclib.hardware.motors.Motor
-import com.arcrobotics.ftclib.hardware.motors.MotorEx
-import com.arcrobotics.ftclib.kotlin.extensions.drivebase.setMaxSpeed
-import com.arcrobotics.ftclib.kotlin.extensions.drivebase.setRange
+import org.screamrobotics.SuperSCREAMLib.drivebase.MecanumDrive
+import org.screamrobotics.SuperSCREAMLib.geometry.Vector2d
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.Motor
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.MotorEx
+import org.screamrobotics.SuperSCREAMLib.kotlin.extensions.drivebase.setMaxSpeed
+import org.screamrobotics.SuperSCREAMLib.kotlin.extensions.drivebase.setRange
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode
 import kotlin.math.absoluteValue
 

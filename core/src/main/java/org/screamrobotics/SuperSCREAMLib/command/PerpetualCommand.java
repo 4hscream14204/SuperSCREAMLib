@@ -7,8 +7,8 @@
 
 package org.screamrobotics.SuperSCREAMLib.command;
 
-import static com.arcrobotics.SuperSCREAMLib.command.CommandGroupBase.registerGroupedCommands;
-import static com.arcrobotics.SuperSCREAMLib.command.CommandGroupBase.requireUngrouped;
+import static org.screamrobotics.SuperSCREAMLib.command.CommandGroupBase.registerGroupedCommands;
+import static org.screamrobotics.SuperSCREAMLib.command.CommandGroupBase.requireUngrouped;
 
 /**
  * A command that runs another command in perpetuity, ignoring that command's end conditions.  While

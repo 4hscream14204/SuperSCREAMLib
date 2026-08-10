@@ -9,14 +9,14 @@ package org.screamrobotics.SuperSCREAMLib.command;
 
 import androidx.annotation.NonNull;
 
-import com.arcrobotics.SuperSCREAMLib.controller.wpilibcontroller.ProfiledPIDController;
+import org.screamrobotics.SuperSCREAMLib.controller.wpilibcontroller.ProfiledPIDController;
 
 import java.util.Arrays;
 import java.util.function.BiConsumer;
 import java.util.function.DoubleSupplier;
 import java.util.function.Supplier;
 
-import static com.arcrobotics.SuperSCREAMLib.trajectory.TrapezoidProfile.State;
+import static org.screamrobotics.SuperSCREAMLib.trajectory.TrapezoidProfile.State;
 
 /**
  * A command that controls an output with a {@link ProfiledPIDController}.  Runs forever by

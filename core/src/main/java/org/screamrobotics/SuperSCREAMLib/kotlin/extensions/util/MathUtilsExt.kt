@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.kotlin.extensions.util
 
-import com.arcrobotics.ftclib.util.MathUtils
+import org.screamrobotics.SuperSCREAMLib.util.MathUtils
 
 /**
  * @author Jaran Chao

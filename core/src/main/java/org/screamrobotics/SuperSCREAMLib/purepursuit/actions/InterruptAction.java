@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.purepursuit.actions;
 
-import com.arcrobotics.SuperSCREAMLib.purepursuit.waypoints.InterruptWaypoint;
+import org.screamrobotics.SuperSCREAMLib.purepursuit.waypoints.InterruptWaypoint;
 
 /**
  * This interface represents an action that InterruptWaypoint perform when

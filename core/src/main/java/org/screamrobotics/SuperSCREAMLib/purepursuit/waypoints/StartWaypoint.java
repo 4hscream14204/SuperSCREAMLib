@@ -1,10 +1,10 @@
 package org.screamrobotics.SuperSCREAMLib.purepursuit.waypoints;
 
-import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
-import com.arcrobotics.SuperSCREAMLib.geometry.Rotation2d;
-import com.arcrobotics.SuperSCREAMLib.geometry.Translation2d;
-import com.arcrobotics.SuperSCREAMLib.purepursuit.Waypoint;
-import com.arcrobotics.SuperSCREAMLib.purepursuit.types.WaypointType;
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Rotation2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Translation2d;
+import org.screamrobotics.SuperSCREAMLib.purepursuit.Waypoint;
+import org.screamrobotics.SuperSCREAMLib.purepursuit.types.WaypointType;
 
 /**
  * A start waypoint represents the first waypoint in a path. This waypoint is

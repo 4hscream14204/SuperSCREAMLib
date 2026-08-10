@@ -1,10 +1,10 @@
 package org.screamrobotics.SuperSCREAMLib.purepursuit.waypoints;
 
-import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
-import com.arcrobotics.SuperSCREAMLib.geometry.Rotation2d;
-import com.arcrobotics.SuperSCREAMLib.geometry.Translation2d;
-import com.arcrobotics.SuperSCREAMLib.purepursuit.actions.InterruptAction;
-import com.arcrobotics.SuperSCREAMLib.purepursuit.types.WaypointType;
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Rotation2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Translation2d;
+import org.screamrobotics.SuperSCREAMLib.purepursuit.actions.InterruptAction;
+import org.screamrobotics.SuperSCREAMLib.purepursuit.types.WaypointType;
 
 /**
  * An InterruptWaypoint is a PointTurnWaypoint. After the robot stops at this waypoint, it will turn

@@ -1,6 +1,6 @@
 package com.example.ftclibexamples.CommandSample;
 
-import com.arcrobotics.SuperSCREAMLib.command.CommandBase;
+import org.screamrobotics.SuperSCREAMLib.command.CommandBase;
 
 public class DriveDistance extends CommandBase {
 

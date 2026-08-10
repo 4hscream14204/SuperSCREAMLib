@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.kotlin.extensions.hardware
 
-import com.arcrobotics.ftclib.hardware.SimpleServo
+import org.screamrobotics.SuperSCREAMLib.hardware.SimpleServo
 
 /**
  * @author Jaran Chao

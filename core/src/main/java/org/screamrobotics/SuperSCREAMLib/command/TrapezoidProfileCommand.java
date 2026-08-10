@@ -9,8 +9,8 @@
 
 package org.screamrobotics.SuperSCREAMLib.command;
 
-import com.arcrobotics.SuperSCREAMLib.trajectory.TrapezoidProfile;
-import com.arcrobotics.SuperSCREAMLib.util.Timing;
+import org.screamrobotics.SuperSCREAMLib.trajectory.TrapezoidProfile;
+import org.screamrobotics.SuperSCREAMLib.util.Timing;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 

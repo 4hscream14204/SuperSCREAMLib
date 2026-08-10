@@ -1,9 +1,9 @@
 package com.example.ftclibexamples.OldCommandSample;
 
-import com.arcrobotics.SuperSCREAMLib.command.old.CommandOpMode;
-import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadEx;
-import com.arcrobotics.SuperSCREAMLib.hardware.SimpleServo;
-import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
+import org.screamrobotics.SuperSCREAMLib.command.old.CommandOpMode;
+import org.screamrobotics.SuperSCREAMLib.gamepad.GamepadEx;
+import org.screamrobotics.SuperSCREAMLib.hardware.SimpleServo;
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 
 @Disabled

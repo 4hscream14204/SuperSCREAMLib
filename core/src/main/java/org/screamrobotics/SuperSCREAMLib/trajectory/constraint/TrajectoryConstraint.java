@@ -7,7 +7,7 @@
 
 package org.screamrobotics.SuperSCREAMLib.trajectory.constraint;
 
-import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d;
 
 /**
  * An interface for defining user-defined velocity and acceleration constraints

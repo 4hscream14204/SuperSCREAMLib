@@ -1,7 +1,7 @@
 package org.screamrobotics.SuperSCREAMLib.gamepad;
 
-import com.arcrobotics.SuperSCREAMLib.command.button.GamepadButton;
-import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadKeys.Button;
+import org.screamrobotics.SuperSCREAMLib.command.button.GamepadButton;
+import org.screamrobotics.SuperSCREAMLib.gamepad.GamepadKeys.Button;
 import com.qualcomm.robotcore.hardware.Gamepad;
 
 import java.util.HashMap;

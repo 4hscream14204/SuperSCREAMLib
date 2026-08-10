@@ -1,8 +1,8 @@
 package com.example.ftclibexamples.OldCommandSample;
 
-import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
-import com.arcrobotics.SuperSCREAMLib.util.Direction;
-import com.arcrobotics.SuperSCREAMLib.util.Timing;
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
+import org.screamrobotics.SuperSCREAMLib.util.Direction;
+import org.screamrobotics.SuperSCREAMLib.util.Timing;
 
 import java.util.concurrent.TimeUnit;
 

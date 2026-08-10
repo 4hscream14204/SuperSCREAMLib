@@ -7,7 +7,7 @@
 
 package org.screamrobotics.SuperSCREAMLib.command.button;
 
-import com.arcrobotics.SuperSCREAMLib.command.Command;
+import org.screamrobotics.SuperSCREAMLib.command.Command;
 
 import java.util.function.BooleanSupplier;
 

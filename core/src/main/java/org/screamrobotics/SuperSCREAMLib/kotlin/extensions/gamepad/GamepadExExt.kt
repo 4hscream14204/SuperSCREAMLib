@@ -1,7 +1,7 @@
 package org.screamrobotics.SuperSCREAMLib.kotlin.extensions.gamepad
 
-import com.arcrobotics.ftclib.command.InstantCommand
-import com.arcrobotics.ftclib.command.button.Trigger
+import org.screamrobotics.SuperSCREAMLib.command.InstantCommand
+import org.screamrobotics.SuperSCREAMLib.command.button.Trigger
 
 operator fun <T : Trigger> T.not(): Trigger = this.negate()
 

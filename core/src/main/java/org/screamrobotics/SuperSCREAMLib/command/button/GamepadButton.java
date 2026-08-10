@@ -2,8 +2,8 @@ package org.screamrobotics.SuperSCREAMLib.command.button;
 
 import androidx.annotation.NonNull;
 
-import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadEx;
-import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadKeys;
+import org.screamrobotics.SuperSCREAMLib.gamepad.GamepadEx;
+import org.screamrobotics.SuperSCREAMLib.gamepad.GamepadKeys;
 
 /**
  * A {@link Button} that gets its state from a {@link GamepadEx}.

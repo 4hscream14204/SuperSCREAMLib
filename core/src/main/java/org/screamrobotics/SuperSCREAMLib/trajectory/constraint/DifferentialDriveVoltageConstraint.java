@@ -7,11 +7,11 @@
 
 package org.screamrobotics.SuperSCREAMLib.trajectory.constraint;
 
-import com.arcrobotics.SuperSCREAMLib.controller.wpilibcontroller.SimpleMotorFeedforward;
-import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
-import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.ChassisSpeeds;
-import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.DifferentialDriveKinematics;
-import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.DifferentialDriveWheelSpeeds;
+import org.screamrobotics.SuperSCREAMLib.controller.wpilibcontroller.SimpleMotorFeedforward;
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d;
+import org.screamrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.ChassisSpeeds;
+import org.screamrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.DifferentialDriveKinematics;
+import org.screamrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.DifferentialDriveWheelSpeeds;
 
 
 /**

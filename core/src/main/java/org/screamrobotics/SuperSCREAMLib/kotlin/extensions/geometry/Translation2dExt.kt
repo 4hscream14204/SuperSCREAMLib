@@ -1,7 +1,7 @@
 package org.screamrobotics.SuperSCREAMLib.kotlin.extensions.geometry
 
-import com.arcrobotics.ftclib.geometry.Rotation2d
-import com.arcrobotics.ftclib.geometry.Translation2d
+import org.screamrobotics.SuperSCREAMLib.geometry.Rotation2d
+import org.screamrobotics.SuperSCREAMLib.geometry.Translation2d
 
 /**
  * @author Jaran Chao

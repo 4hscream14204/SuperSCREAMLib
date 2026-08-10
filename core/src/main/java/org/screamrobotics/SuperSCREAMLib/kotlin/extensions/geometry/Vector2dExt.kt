@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.kotlin.extensions.geometry
 
-import com.arcrobotics.ftclib.geometry.Vector2d
+import org.screamrobotics.SuperSCREAMLib.geometry.Vector2d
 
 /**
  * @author Jaran Chao

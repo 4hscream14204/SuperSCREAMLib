@@ -1,13 +1,13 @@
 package com.example.ftclibexamples.kotlinexamples
 
-import com.arcrobotics.ftclib.geometry.Pose2d
-import com.arcrobotics.ftclib.geometry.Rotation2d
-import com.arcrobotics.ftclib.geometry.Translation2d
-import com.arcrobotics.ftclib.hardware.motors.Motor
-import com.arcrobotics.ftclib.hardware.motors.MotorEx
-import com.arcrobotics.ftclib.kinematics.HolonomicOdometry
-import com.arcrobotics.ftclib.kotlin.extensions.util.toLUT
-import com.arcrobotics.ftclib.util.LUT
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d
+import org.screamrobotics.SuperSCREAMLib.geometry.Rotation2d
+import org.screamrobotics.SuperSCREAMLib.geometry.Translation2d
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.Motor
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.MotorEx
+import org.screamrobotics.SuperSCREAMLib.kinematics.HolonomicOdometry
+import org.screamrobotics.SuperSCREAMLib.kotlin.extensions.util.toLUT
+import org.screamrobotics.SuperSCREAMLib.util.LUT
 import com.qualcomm.robotcore.eventloop.opmode.Disabled
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp

@@ -1,12 +1,12 @@
 package com.example.ftclibexamples;
 
-import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
-import com.arcrobotics.SuperSCREAMLib.geometry.Rotation2d;
-import com.arcrobotics.SuperSCREAMLib.geometry.Translation2d;
-import com.arcrobotics.SuperSCREAMLib.hardware.motors.Motor;
-import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
-import com.arcrobotics.SuperSCREAMLib.kinematics.HolonomicOdometry;
-import com.arcrobotics.SuperSCREAMLib.util.LUT;
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Rotation2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Translation2d;
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.Motor;
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
+import org.screamrobotics.SuperSCREAMLib.kinematics.HolonomicOdometry;
+import org.screamrobotics.SuperSCREAMLib.util.LUT;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;

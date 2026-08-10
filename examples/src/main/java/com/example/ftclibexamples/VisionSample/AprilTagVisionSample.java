@@ -1,7 +1,7 @@
 package com.example.ftclibexamples.VisionSample;
 
-import com.arcrobotics.SuperSCREAMLib.vision.AprilTagDetector;
-import com.arcrobotics.SuperSCREAMLib.vision.DetectorState;
+import org.screamrobotics.SuperSCREAMLib.vision.AprilTagDetector;
+import org.screamrobotics.SuperSCREAMLib.vision.DetectorState;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 import org.openftc.easyopencv.OpenCvCamera;

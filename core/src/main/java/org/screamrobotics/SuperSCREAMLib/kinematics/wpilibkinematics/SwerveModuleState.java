@@ -7,7 +7,7 @@
 
 package org.screamrobotics.SuperSCREAMLib.kinematics.wpilibkinematics;
 
-import com.arcrobotics.SuperSCREAMLib.geometry.Rotation2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Rotation2d;
 
 /**
  * Represents the state of one swerve module.

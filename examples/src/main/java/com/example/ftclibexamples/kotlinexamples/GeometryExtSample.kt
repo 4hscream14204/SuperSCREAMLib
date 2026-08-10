@@ -1,7 +1,7 @@
 package com.example.ftclibexamples.kotlinexamples
 
-import com.arcrobotics.ftclib.geometry.*
-import com.arcrobotics.ftclib.kotlin.extensions.geometry.*
+import org.screamrobotics.SuperSCREAMLib.geometry.*
+import org.screamrobotics.SuperSCREAMLib.kotlin.extensions.geometry.*
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode
 
 class GeometryExtSample : LinearOpMode() {

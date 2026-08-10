@@ -1,13 +1,13 @@
 package com.example.ftclibexamples.OldCommandSample;
 
-import com.arcrobotics.SuperSCREAMLib.command.old.Subsystem;
-import com.arcrobotics.SuperSCREAMLib.drivebase.MecanumDrive;
-import com.arcrobotics.SuperSCREAMLib.gamepad.ButtonReader;
-import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadEx;
-import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadKeys;
-import com.arcrobotics.SuperSCREAMLib.hardware.RevIMU;
-import com.arcrobotics.SuperSCREAMLib.hardware.motors.Motor;
-import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
+import org.screamrobotics.SuperSCREAMLib.command.old.Subsystem;
+import org.screamrobotics.SuperSCREAMLib.drivebase.MecanumDrive;
+import org.screamrobotics.SuperSCREAMLib.gamepad.ButtonReader;
+import org.screamrobotics.SuperSCREAMLib.gamepad.GamepadEx;
+import org.screamrobotics.SuperSCREAMLib.gamepad.GamepadKeys;
+import org.screamrobotics.SuperSCREAMLib.hardware.RevIMU;
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.Motor;
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import org.firstinspires.ftc.robotcore.external.Telemetry;

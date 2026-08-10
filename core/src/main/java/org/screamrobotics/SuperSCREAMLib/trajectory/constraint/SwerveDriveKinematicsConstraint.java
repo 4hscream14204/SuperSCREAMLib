@@ -7,10 +7,10 @@
 
 package org.screamrobotics.SuperSCREAMLib.trajectory.constraint;
 
-import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
-import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.ChassisSpeeds;
-import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.SwerveDriveKinematics;
-import com.arcrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.SwerveModuleState;
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d;
+import org.screamrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.ChassisSpeeds;
+import org.screamrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.SwerveDriveKinematics;
+import org.screamrobotics.SuperSCREAMLib.kinematics.wpilibkinematics.SwerveModuleState;
 
 
 /**

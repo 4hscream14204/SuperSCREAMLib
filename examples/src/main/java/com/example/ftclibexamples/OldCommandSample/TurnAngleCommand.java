@@ -1,7 +1,7 @@
 package com.example.ftclibexamples.OldCommandSample;
 
-import com.arcrobotics.SuperSCREAMLib.command.old.Command;
-import com.arcrobotics.SuperSCREAMLib.controller.PController;
+import org.screamrobotics.SuperSCREAMLib.command.old.Command;
+import org.screamrobotics.SuperSCREAMLib.controller.PController;
 
 import org.firstinspires.ftc.robotcore.external.Telemetry;
 

@@ -1,10 +1,10 @@
 package com.example.ftclibexamples;
 
-import com.arcrobotics.SuperSCREAMLib.drivebase.MecanumDrive;
-import com.arcrobotics.SuperSCREAMLib.hardware.motors.Motor;
-import com.arcrobotics.SuperSCREAMLib.hardware.motors.Motor.Encoder;
-import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
-import com.arcrobotics.SuperSCREAMLib.kinematics.HolonomicOdometry;
+import org.screamrobotics.SuperSCREAMLib.drivebase.MecanumDrive;
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.Motor;
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.Motor.Encoder;
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
+import org.screamrobotics.SuperSCREAMLib.kinematics.HolonomicOdometry;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;

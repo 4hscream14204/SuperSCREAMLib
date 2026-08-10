@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.purepursuit.actions;
 
-import com.arcrobotics.SuperSCREAMLib.purepursuit.Path;
+import org.screamrobotics.SuperSCREAMLib.purepursuit.Path;
 
 /**
  * This is an optional feature of paths. A triggered action is an action that called

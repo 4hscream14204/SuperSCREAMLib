@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.kotlin.extensions.drivebase
 
-import com.arcrobotics.ftclib.drivebase.RobotDrive
+import org.screamrobotics.SuperSCREAMLib.drivebase.RobotDrive
 
 /**
  * @author Jaran Chao

@@ -1,6 +1,6 @@
 package com.example.ftclibexamples.VisionSample;
 
-import com.arcrobotics.SuperSCREAMLib.vision.UGContourRingPipeline;
+import org.screamrobotics.SuperSCREAMLib.vision.UGContourRingPipeline;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;

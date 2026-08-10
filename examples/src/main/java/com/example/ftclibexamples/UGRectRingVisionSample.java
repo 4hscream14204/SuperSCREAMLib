@@ -1,7 +1,7 @@
 package com.example.ftclibexamples;
 
-import com.arcrobotics.SuperSCREAMLib.command.CommandOpMode;
-import com.arcrobotics.SuperSCREAMLib.vision.UGRectDetector;
+import org.screamrobotics.SuperSCREAMLib.command.CommandOpMode;
+import org.screamrobotics.SuperSCREAMLib.vision.UGRectDetector;
 
 public class UGRectRingVisionSample extends CommandOpMode {
     UGRectDetector UGRectDetector;

@@ -31,8 +31,8 @@
 
 package org.screamrobotics.SuperSCREAMLib.trajectory;
 
-import com.arcrobotics.SuperSCREAMLib.spline.PoseWithCurvature;
-import com.arcrobotics.SuperSCREAMLib.trajectory.constraint.TrajectoryConstraint;
+import org.screamrobotics.SuperSCREAMLib.spline.PoseWithCurvature;
+import org.screamrobotics.SuperSCREAMLib.trajectory.constraint.TrajectoryConstraint;
 
 import java.util.ArrayList;
 import java.util.List;

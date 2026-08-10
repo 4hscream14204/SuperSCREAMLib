@@ -1,10 +1,10 @@
 package org.screamrobotics.SuperSCREAMLib.purepursuit.waypoints;
 
-import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
-import com.arcrobotics.SuperSCREAMLib.geometry.Rotation2d;
-import com.arcrobotics.SuperSCREAMLib.geometry.Translation2d;
-import com.arcrobotics.SuperSCREAMLib.purepursuit.Waypoint;
-import com.arcrobotics.SuperSCREAMLib.purepursuit.types.WaypointType;
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Rotation2d;
+import org.screamrobotics.SuperSCREAMLib.geometry.Translation2d;
+import org.screamrobotics.SuperSCREAMLib.purepursuit.Waypoint;
+import org.screamrobotics.SuperSCREAMLib.purepursuit.types.WaypointType;
 
 /**
  * A general waypoint is the most common type of Waypoint. This waypoint acts like a

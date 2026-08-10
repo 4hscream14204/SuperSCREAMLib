@@ -1,11 +1,11 @@
 package com.example.ftclibexamples.CommandSample;
 
-import com.arcrobotics.SuperSCREAMLib.command.CommandBase;
+import org.screamrobotics.SuperSCREAMLib.command.CommandBase;
 
 /**
  * A simple command that grabs a stone with the {@link GripperSubsystem}.  Written explicitly for
  * pedagogical purposes. Actual code should inline a command this simple with {@link
- * com.arcrobotics.SuperSCREAMLib.command.InstantCommand}.
+ * org.screamrobotics.SuperSCREAMLib.command.InstantCommand}.
  */
 public class GrabStone extends CommandBase {
 

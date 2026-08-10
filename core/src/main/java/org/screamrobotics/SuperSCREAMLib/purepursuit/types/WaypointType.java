@@ -1,6 +1,6 @@
 package org.screamrobotics.SuperSCREAMLib.purepursuit.types;
 
-import com.arcrobotics.SuperSCREAMLib.purepursuit.Waypoint;
+import org.screamrobotics.SuperSCREAMLib.purepursuit.Waypoint;
 
 /**
  * An enum with values for each Waypoint type.

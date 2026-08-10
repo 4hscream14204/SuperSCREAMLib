@@ -1,12 +1,12 @@
 package com.example.ftclibexamples.kotlinexamples
 
-import com.arcrobotics.ftclib.command.CommandScheduler
-import com.arcrobotics.ftclib.gamepad.GamepadEx
-import com.arcrobotics.ftclib.gamepad.GamepadKeys
-import com.arcrobotics.ftclib.hardware.SimpleServo
-import com.arcrobotics.ftclib.kotlin.extensions.gamepad.and
-import com.arcrobotics.ftclib.kotlin.extensions.gamepad.not
-import com.arcrobotics.ftclib.kotlin.extensions.gamepad.whenActive
+import org.screamrobotics.SuperSCREAMLib.command.CommandScheduler
+import org.screamrobotics.SuperSCREAMLib.gamepad.GamepadEx
+import org.screamrobotics.SuperSCREAMLib.gamepad.GamepadKeys
+import org.screamrobotics.SuperSCREAMLib.hardware.SimpleServo
+import org.screamrobotics.SuperSCREAMLib.kotlin.extensions.gamepad.and
+import org.screamrobotics.SuperSCREAMLib.kotlin.extensions.gamepad.not
+import org.screamrobotics.SuperSCREAMLib.kotlin.extensions.gamepad.whenActive
 import com.qualcomm.robotcore.eventloop.opmode.Disabled
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp

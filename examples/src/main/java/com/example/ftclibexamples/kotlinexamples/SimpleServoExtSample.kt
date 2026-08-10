@@ -1,7 +1,7 @@
 package com.example.ftclibexamples.kotlinexamples
 
-import com.arcrobotics.ftclib.hardware.SimpleServo
-import com.arcrobotics.ftclib.kotlin.extensions.hardware.range
+import org.screamrobotics.SuperSCREAMLib.hardware.SimpleServo
+import org.screamrobotics.SuperSCREAMLib.kotlin.extensions.hardware.range
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode
 
 class SimpleServoExtSample : LinearOpMode() {

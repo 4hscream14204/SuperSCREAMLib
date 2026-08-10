@@ -1,7 +1,7 @@
 package com.example.ftclibexamples.SharedOdometry;
 
-import com.arcrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
-import com.arcrobotics.SuperSCREAMLib.kinematics.HolonomicOdometry;
+import org.screamrobotics.SuperSCREAMLib.hardware.motors.MotorEx;
+import org.screamrobotics.SuperSCREAMLib.kinematics.HolonomicOdometry;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;

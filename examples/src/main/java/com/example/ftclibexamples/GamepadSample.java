@@ -1,10 +1,10 @@
 package com.example.ftclibexamples;
 
-import com.arcrobotics.SuperSCREAMLib.command.CommandScheduler;
-import com.arcrobotics.SuperSCREAMLib.command.InstantCommand;
-import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadEx;
-import com.arcrobotics.SuperSCREAMLib.gamepad.GamepadKeys;
-import com.arcrobotics.SuperSCREAMLib.hardware.SimpleServo;
+import org.screamrobotics.SuperSCREAMLib.command.CommandScheduler;
+import org.screamrobotics.SuperSCREAMLib.command.InstantCommand;
+import org.screamrobotics.SuperSCREAMLib.gamepad.GamepadEx;
+import org.screamrobotics.SuperSCREAMLib.gamepad.GamepadKeys;
+import org.screamrobotics.SuperSCREAMLib.hardware.SimpleServo;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;

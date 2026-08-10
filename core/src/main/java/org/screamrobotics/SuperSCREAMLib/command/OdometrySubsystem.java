@@ -1,7 +1,7 @@
 package org.screamrobotics.SuperSCREAMLib.command;
 
-import com.arcrobotics.SuperSCREAMLib.geometry.Pose2d;
-import com.arcrobotics.SuperSCREAMLib.kinematics.Odometry;
+import org.screamrobotics.SuperSCREAMLib.geometry.Pose2d;
+import org.screamrobotics.SuperSCREAMLib.kinematics.Odometry;
 
 public class OdometrySubsystem extends SubsystemBase {
 
