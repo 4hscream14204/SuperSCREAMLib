@@ -1,4 +1,4 @@
-<img width="538" height="537" alt="SuperScreamlibLogo" src="https://github.com/user-attachments/assets/5e496857-e4b4-4e4b-83e5-21c9e90d4911" />
+<img width="429" height="227" alt="SuperScreamlibLogo" src="https://github.com/user-attachments/assets/d3a3c01d-31b8-48a1-9f53-79c6dffbcbbd" />
 
 *Logo produced by Jack from #14204 Super SCREAM Bros*
 
