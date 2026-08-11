@@ -23,7 +23,7 @@ public class GamepadEx {
     private final Button[] buttons = {
             Button.Y, Button.X, Button.A, Button.B, Button.LEFT_BUMPER, Button.RIGHT_BUMPER, Button.BACK,
             Button.START, Button.DPAD_UP, Button.DPAD_DOWN, Button.DPAD_LEFT, Button.DPAD_RIGHT,
-            Button.LEFT_STICK_BUTTON, Button.RIGHT_STICK_BUTTON
+            Button.LEFT_STICK_BUTTON, Button.RIGHT_STICK_BUTTON, Button.CROSS, Button.CIRCLE, Button.SQUARE, Button.TRIANGLE
     };
 
     /**
