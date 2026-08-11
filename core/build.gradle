@@ -43,6 +43,7 @@ android {
 
 repositories {
     mavenCentral()
+    maven { url = "https://mymaven.bylazar.com/releases" }
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -65,4 +66,7 @@ dependencies {
     compileOnly 'androidx.appcompat:appcompat:1.2.0'
     implementation "androidx.core:core-ktx:1.6.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+
+    implementation 'com.pedropathing:ftc:2.1.2'
+    implementation 'com.pedropathing:telemetry:1.0.0'
 }
