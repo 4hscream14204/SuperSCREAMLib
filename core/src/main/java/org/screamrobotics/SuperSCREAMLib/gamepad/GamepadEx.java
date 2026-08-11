@@ -61,6 +61,18 @@ public class GamepadEx {
             case Y:
                 buttonValue = gamepad.y;
                 break;
+            case CROSS:
+                buttonValue = gamepad.a;
+                break;
+            case CIRCLE:
+                buttonValue = gamepad.b;
+                break;
+            case SQUARE:
+                buttonValue = gamepad.x;
+                break;
+            case TRIANGLE:
+                buttonValue = gamepad.y;
+                break;
             case LEFT_BUMPER:
                 buttonValue = gamepad.left_bumper;
                 break;
