@@ -17,7 +17,7 @@ Super SCREAM Lib documentation - <https://github.com/4hscream14204/SuperSCREAMLi
 Without further ado, let's a go with the installation!
 
 1. Add `maven { url = "https://jitpack.io" }` to your build.dependencies.gradle under the repositories section.
-2. Add `implementation "com.github.4hscream14204:SuperSCREAMLib:<LATEST-VERSION>"` into your dependencies.
+2. Add `implementation "com.github.4hscream14204:SuperSCREAMLib:<LATEST-VERSION>"` into your dependencies. The version format is "vX.Y.Z" and the current latest release is 3.0.0.
 3. Do a Gradle Sync and you're done! Enjoy Super SCREAM Lib!
 
 ## Welcome to Super SCREAM Lib!
@@ -26,6 +26,6 @@ Thanks for using Super SCREAM Lib! We appreciate your support of our library!
 
 ## Why Use Super SCREAM Lib?
 
-Super SCREAM Lib is a library that uses the command based system from FTCLib, which allows for more automation and complexity for your robot. Additionally, it adds some quality of life changes like setting the position of servos with PWM, a custom Slides class for easier use, and more!
+Super SCREAM Lib is a library that uses the command based system from FTCLib, which allows for more automation and complexity for your robot. Additionally, it adds some quality of life changes like setting the position of servos with PWM, a class for controlling a goBILDA RGB Indicator Light, and more!
 
-Please make sure to contact us if you have any other questions.
+Please make sure to contact us if you have any questions, or want to suggest a feature!
