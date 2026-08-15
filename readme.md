@@ -17,7 +17,7 @@ Super SCREAM Lib documentation - <https://github.com/4hscream14204/SuperSCREAMLi
 Without further ado, let's a go with the installation!
 
 1. Add `maven { url = "https://jitpack.io" }` to your build.dependencies.gradle under the repositories section.
-2. Add `implementation "com.github.4hscream14204:SuperSCREAMLib:<LATEST-VERSION>"` into your dependencies. The version format is "vX.Y.Z" and the current latest release is 3.1.0.
+2. Add `implementation "com.github.4hscream14204:SuperSCREAMLib:<LATEST-VERSION>"` into your dependencies. The version format is "vX.Y.Z" and the current latest release is 3.1.1.
 3. Do a Gradle Sync and you're done! Enjoy Super SCREAM Lib!
 
 ## Welcome to Super SCREAM Lib!
