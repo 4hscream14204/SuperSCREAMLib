@@ -2,6 +2,8 @@
 
 *Logo produced by Jack from #14204 Super SCREAM Bros*
 
+[![](https://jitpack.io/v/4hscream14204/SuperSCREAMLib.svg)](https://jitpack.io/#4hscream14204/SuperSCREAMLib)
+
 Origin: <https://github.com/4hscream14204/SuperSCREAMLib>
 
 Forked from FTCLib and updated by Connor and the Super SCREAM Bros programming subteam
