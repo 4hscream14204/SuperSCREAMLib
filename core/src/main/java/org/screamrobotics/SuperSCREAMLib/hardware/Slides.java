@@ -17,8 +17,14 @@ public class Slides {
         NO;
     }
 
+    public enum EncoderDirection{
+        POSITIVE,
+        NEGATIVE;
+    }
+
     LimitSwitchUsage limitSwitchUsage;
     MotorAmount motorAmount;
+    EncoderDirection encoderDirection;
     DcMotorEx slideMotorL;
     DcMotorEx slideMotorR;
     DigitalChannel limitSwitch;
@@ -28,22 +34,24 @@ public class Slides {
     int currentPos;
     double stoppingPower;
 
-    public Slides(DcMotorEx m_slideMotor, LimitSwitchUsage m_limitSwitchUsage, DigitalChannel m_limitSwitch){
+    public Slides(DcMotorEx m_slideMotor, LimitSwitchUsage m_limitSwitchUsage, DigitalChannel m_limitSwitch, EncoderDirection m_encoderDirection){
         slideMotorL = m_slideMotor;
         motorAmount = MotorAmount.SINGLE;
         limitSwitchUsage = m_limitSwitchUsage;
         limitSwitch = m_limitSwitch;
+        encoderDirection = m_encoderDirection;
 
         slideMotorL.setTargetPositionTolerance(1);
         slideMotorL.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
     }
 
-    public Slides(DcMotorEx m_slideMotor, DcMotorEx m_slideMotor2, LimitSwitchUsage m_limitSwitchUsage, DigitalChannel m_limitSwitch){
+    public Slides(DcMotorEx m_slideMotor, DcMotorEx m_slideMotor2, LimitSwitchUsage m_limitSwitchUsage, DigitalChannel m_limitSwitch, EncoderDirection m_encoderDirection){
         slideMotorL = m_slideMotor;
         slideMotorR = m_slideMotor2;
         motorAmount = MotorAmount.DUAL;
         limitSwitchUsage = m_limitSwitchUsage;
         limitSwitch = m_limitSwitch;
+        encoderDirection = m_encoderDirection;
 
         slideMotorL.setTargetPositionTolerance(1);
         slideMotorL.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
@@ -51,15 +59,16 @@ public class Slides {
         slideMotorR.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
     }
 
-    public Slides(DcMotorEx m_slideMotor){
+    public Slides(DcMotorEx m_slideMotor, EncoderDirection m_encoderDirection){
         slideMotorL = m_slideMotor;
         motorAmount = MotorAmount.SINGLE;
         limitSwitchUsage = LimitSwitchUsage.NO;
         slideMotorL.setTargetPositionTolerance(1);
         slideMotorL.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        encoderDirection = m_encoderDirection;
     }
 
-    public Slides(DcMotorEx m_slideMotor, DcMotorEx m_slideMotor2){
+    public Slides(DcMotorEx m_slideMotor, DcMotorEx m_slideMotor2, EncoderDirection m_encoderDirection){
         slideMotorL = m_slideMotor;
         slideMotorR = m_slideMotor2;
         motorAmount = MotorAmount.DUAL;
@@ -68,6 +77,7 @@ public class Slides {
         slideMotorL.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         slideMotorR.setTargetPositionTolerance(1);
         slideMotorR.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        encoderDirection = m_encoderDirection;
     }
 
     public void setPower(double power){
@@ -117,15 +127,29 @@ public class Slides {
     }
 
     public void goToPosition(int targetPosition) {
-        if(getPosition() < targetPosition){
-            setPower(downPower);
+        if(encoderDirection == EncoderDirection.NEGATIVE){
+            if(getPosition() < targetPosition){
+                setPower(downPower);
+            }
+            else if(getPosition() > targetPosition){
+                setPower(upPower);
+            }
+            else if(isAtPosition(targetPosition)){
+                stopInPlace();
+                return;
+            }
         }
-        else if(getPosition() > targetPosition){
-            setPower(upPower);
-        }
-        else if(isAtPosition(targetPosition)){
-            stopInPlace();
-            return;
+        else{
+            if(getPosition() > targetPosition){
+                setPower(downPower);
+            }
+            else if(getPosition() < targetPosition){
+                setPower(upPower);
+            }
+            else if(isAtPosition(targetPosition)){
+                stopInPlace();
+                return;
+            }
         }
         setMode(DcMotor.RunMode.RUN_TO_POSITION);
         setTargetPosition(targetPosition);
